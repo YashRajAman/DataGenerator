@@ -1,5 +1,7 @@
 import psycopg2
 import random
+#replace the connection string values with right  values i.e for host, database, user and password
+
 conn = psycopg2.connect(
     host="localhost",
     database="ubh01",
